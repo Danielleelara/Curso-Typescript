@@ -8,5 +8,5 @@ class UserAccount {
     }
 }  
 
-const aluna = new UserAccount('Danielle', 36);
-console.log(aluna);
+const dani = new UserAccount('Danielle', 36);
+console.log(dani);
