@@ -8,5 +8,5 @@ class UserAccount {
     }
 }  
 
-const aluna = new UserAccount("Danielle", 36);
+const aluna = new UserAccount('Danielle', 36);
 console.log(aluna);

@@ -6,5 +6,5 @@ var UserAccount = /** @class */ (function () {
     }
     return UserAccount;
 }());
-var aluna = new UserAccount("Danielle", 36);
+var aluna = new UserAccount('Danielle', 36);
 console.log(aluna);
