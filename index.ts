@@ -7,5 +7,5 @@ function sum(a: number, b: number) {
 }
 
 button.addEventListener('click', () =>{
-    console.log (Number(input1.value) , Number(input2.value))
+    console.log (sum(Number(input1.value) , Number(input2.value)));
 });

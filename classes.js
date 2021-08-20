@@ -8,3 +8,4 @@ var UserAccount = /** @class */ (function () {
 }());
 var dani = new UserAccount('Danielle', 36);
 console.log(dani);
+console.log(dani.age);
