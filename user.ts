@@ -24,7 +24,7 @@ const char: CharInfo = {
 // intersection
 type PlayerInfo = AccountInfo & CharInfo
 
-const player: PlayerInfo ={
+const player: PlayerInfo = {
     id: '123',
     name: 'Willian',
     nickname: 'willjusten',

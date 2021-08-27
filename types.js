@@ -29,7 +29,7 @@ coisa = [1];
 function logger() {
     console.log('foo');
 }
-var variable;
+var variable; //(não faz sentido)
 //never (nunca retorna)
 function erro() {
     throw new Error('error');

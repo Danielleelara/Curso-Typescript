@@ -38,7 +38,7 @@ function logger(): void {
 
 //null /undefined
 type Bla = string | undefined
-let variable: null 
+let variable: null //(não faz sentido)
 
 //never (nunca retorna)
 function erro(): never{
@@ -58,6 +58,7 @@ message2 = 'mensagem nova';
 window.addEventListener('click', (e)=> {
     console.log(e.target);
 });
+
 
 
 
