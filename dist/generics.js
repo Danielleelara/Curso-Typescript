@@ -12,7 +12,5 @@ function useState() {
 var newState = useState();
 newState.setState('foo');
 console.log(newState.getState());
-newState.setState(123);
-console.log(newState.getState());
 newState.setState('gata');
 console.log(newState.getState());
